@@ -1,6 +1,6 @@
 <?php
 
-namespace :module-namespace\:module-name;
+namespace IntegerNet\ProductIsNewAttribute;
 
 use PHPUnit\Framework\TestCase;
 
