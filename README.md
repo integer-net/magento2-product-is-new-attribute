@@ -24,7 +24,14 @@ Create an "is_new" product attribute and update it automatically from the "news_
 
 ## Configuration
 
+You can disable auto generation in `Store -> Configuration -> Catalog -> Product "Is New" Attribute -> Will be updated automatically every night` per Store View.
+
 ## Usage
+
+A new product attribute "Is new" (`is_new`) will be created upon installation of this module.
+A cronjob is running every night at 00:01 and regenerates the value of this attribute for each 
+product, depending on the content of the "Set Product as New From" (`news_from_date` and 
+`news_to_date`) date attributes.
 
 ## Changelog
 
