@@ -1,6 +1,6 @@
 {
     "name": "integer-net/magento2-product-is-new-attribute",
-    "description": "Create an "is_new" product attribute and update it automatically from the "news_from_date" and "news_to_date" attributes",
+    "description": "Create an \"is_new\" product attribute and update it automatically from the \"news_from_date\" and \"news_to_date\" attributes",
     "type": "magento2-module",
     "license": "MIT",
     "authors": [
@@ -30,8 +30,8 @@
         }
     ],
     "require": {
-        "php": "~7.0||~7.1||~7.2||~7.3||~7.4",
-        "magento/framework": "^101.0.0||^102.0.0||^103.0.0"
+        "php": "~7.3||~7.4||~8.1",
+        "magento/framework": "^102.0.0||^103.0.0"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",
